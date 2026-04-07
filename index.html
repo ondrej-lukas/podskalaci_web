@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.PS Podskaláci</title>
+    <meta name="description" content="Oficiální stránky Podskaláci. Jsme hrdí na naši historii a komunitu.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="nav-logo">1.PS Podskaláci</a>
+            <ul class="nav-links">
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#oddily">Oddíly</a></li>
+                <li><a href="#contacts">Kontakty</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Přepnout tmavý režim" title="Přepnout režim">
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </button>
+                <button id="mobile-menu" class="mobile-menu" aria-label="Menu" title="Otevřít menu">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1 class="banner-title">Podskaláci</h1>
+            <p class="banner-subtitle">Vítejte na stránkách 1. Pionýrské skupiny Podskaláci</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Us Section -->
+        <section id="about" class="section fade-in">
+            <div class="container section-content">
+                <h2 class="section-title">Informace o skupině</h2>
+                <div class="title-underline"></div>
+                <p class="about-text">
+                    1. pionýrská skupina Podskaláci je pražská nezisková organizace, která se přes 30 let věnuje práci s
+                    dětmi a mládeží. Provozujeme dva oddíly s celoroční činností a v současné době máme více než 40
+                    členů. Naším hlavním zaměřením je organizace pravidelných volnočasových aktivit, víkendových výprav
+                    a letních i zimních táborů, které dětem umožňují trávit čas v kolektivu vrstevníků a rozvíjet jejich
+                    dovednosti.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Oddily Section -->
+        <section id="oddily" class="section bg-light">
+            <div class="container section-content">
+                <h2 class="section-title">Oddíly</h2>
+                <div class="title-underline"></div>
+
+                <div class="troops-grid">
+                    <div class="troop-card">
+                        <div class="troop-content">
+                            <div class="troop-header">
+                                <h3>Oddíl Ontario</h3>
+                                <img src="assets/images/ontario.png" alt="Znak oddílu" class="troop-emblem">
+                            </div>
+                            <ul class="troop-meta">
+                                <li><span class="material-symbols-outlined">schedule</span> Středa 16:30 - 18:00</li>
+                                <li><span class="material-symbols-outlined">groups</span> 5 - 15 let</li>
+                            </ul>
+                            <p>Oddíl Ontario funguje již od roku 1973 a je zaměřený na turistiku. Bylo by však velkou
+                                chybou si myslet, že čas trávíme pouze chozením na výlety. Navštěvujeme hrady, zámky,
+                                zoo, bazény či aquacentra a i vzdělávací centra, která děti rozvíjí ve všech směrech. V
+                                našem oddíle jsou děti ve věku 5 – 15 let.</p>
+                        </div>
+                        <a href="https://www.oddilontario.cz/" target="_blank" class="btn-primary">Více informací</a>
+                    </div>
+                    <div class="troop-card">
+                        <div class="troop-content">
+                            <div class="troop-header">
+                                <h3>Oddíl Vodáci</h3>
+                                <img src="assets/images/vodaci.png" alt="Znak oddílu" class="troop-emblem">
+                            </div>
+                            <ul class="troop-meta">
+                                <li><span class="material-symbols-outlined">schedule</span>
+                                    Pondělí 16:30 - 18:00</li>
+                                <li><span class="material-symbols-outlined">groups</span> 6 - 15 let</li>
+                            </ul>
+                            <p>Oddíl Vodáci se zaměřuje na všestranný rozvoj dětí a praktické dovednosti v přírodě.
+                                Program tvoří pravidelné hry, ovládání lodě a základy táboření, jako je rozdělávání ohně
+                                nebo vaření v přírodě. Kromě schůzek pořádáme pravidelné výlety za poznáním, které
+                                doplňují celoroční činnost a letní tábor. Učíme děti samostatnosti, spolupráci v týmu a
+                                schopnosti poradit si v každé situaci.</p>
+                        </div>
+                        <a href="https://www.oddilvodaci.cz/" target="_blank" class="btn-primary">Více informací</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="contacts" class="section">
+            <div class="container section-content">
+                <h2 class="section-title">Kontakty</h2>
+                <div class="title-underline"></div>
+
+                <div class="single-contact-card">
+                    <div class="contact-item">
+                        <div class="contact-icon"><span class="material-symbols-outlined">location_on</span></div>
+                        <div class="contact-details">
+                            <h3>Adresa</h3>
+                            <p><strong>Pionýr, z.s. – 1. pionýrská skupina Podskaláci</strong><br>U Družstva Ideál
+                                23<br>140 00 Praha 4</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><span class="material-symbols-outlined">mail</span></div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@podskalaci.eu">info@podskalaci.eu</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><span class="material-symbols-outlined">call</span></div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <p><strong>Vedoucí PS (Tobiáš Policar):</strong><a href="tel:+420123456789">+420
+                                    123456789</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><span class="material-symbols-outlined">account_balance</span></div>
+                        <div class="contact-details">
+                            <h3>Fakturační údaje</h3>
+                            <p><strong>IČO:</strong> 65995015<br><strong>Účet:</strong> 2601148261/2010</p>
+                            <p><strong>Datová schránka:</strong> 6z9ex3g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos Section -->
+        <section id="supporters" class="section bg-light">
+            <div class="container section-content">
+                <h2 class="section-title">Děkujeme za podporu</h2>
+                <div class="title-underline"></div>
+
+                <div class="logos-container">
+                    <!-- Part 1: Main Supporters -->
+                    <div class="logos-part">
+                        <div class="logo-grid">
+                            <a href="https://pionyr.cz/" class="logo-link">
+                                <img src="assets/images/pionyr2_logo.png" alt="Pionýr">
+                            </a>
+                            <a href="https://www.praha.eu/" class="logo-link">
+                                <img src="assets/images/mhmp.jpg" alt="Magistrát hlavního města Prahy">
+                            </a>
+                            <a href="https://www.praha11.cz/" class="logo-link">
+                                <img src="assets/images/praha11.jpg" alt="Městská část Praha 11">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Podskaláci</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const iconSpan = themeToggle.querySelector('.material-symbols-outlined');
+        const root = document.documentElement;
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            root.setAttribute('data-theme', 'dark');
+            iconSpan.textContent = 'light_mode';
+            themeToggle.setAttribute('aria-label', 'Přepnout světlý režim');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (root.getAttribute('data-theme') === 'dark') {
+                root.removeAttribute('data-theme');
+                iconSpan.textContent = 'dark_mode';
+                themeToggle.setAttribute('aria-label', 'Přepnout tmavý režim');
+                localStorage.setItem('theme', 'light');
+            } else {
+                root.setAttribute('data-theme', 'dark');
+                iconSpan.textContent = 'light_mode';
+                themeToggle.setAttribute('aria-label', 'Přepnout světlý režim');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Mobile Menu Logic
+        const mobileMenuBtn = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        const navLinksItems = document.querySelectorAll('.nav-links a');
+        const menuIcon = mobileMenuBtn.querySelector('.material-symbols-outlined');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            if (navLinks.classList.contains('active')) {
+                menuIcon.textContent = 'close';
+            } else {
+                menuIcon.textContent = 'menu';
+            }
+        });
+
+        // Close menu and smooth scroll when a link is clicked
+        navLinksItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                navLinks.classList.remove('active');
+                menuIcon.textContent = 'menu';
+
+                const targetId = item.getAttribute('href');
+                if (targetId && targetId.startsWith('#')) {
+                    e.preventDefault();
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const headerOffset = 90; // Accounts for sticky navbar
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
