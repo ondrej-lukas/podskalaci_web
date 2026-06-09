@@ -463,6 +463,18 @@ h6 {
     transform: scale(1.1);
 }
 
+.logo-dark {
+    display: none;
+}
+
+[data-theme="dark"] .logo-light {
+    display: none;
+}
+
+[data-theme="dark"] .logo-dark {
+    display: inline-block;
+}
+
 .placeholder-logo {
     display: flex;
     align-items: center;
